@@ -2,17 +2,19 @@
 <img alt="Vue logo" src="./assets/logo.png" />
 <HelloWorld msg="Welcome to Your Vue.js App" />
 <!-- <PostComments /> -->
-<CityAddRemove />
+<!--<CityAddRemove />-->
 <!--<ComputedTwoNum />-->
 <!--<Counter />-->
+<CounterWithVuex />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
 // import ComputedTwoNum from "./components/ComputedTwoNum";
 // import PostComments from "./components/PostComments";
-import CityAddRemove from "./components/CityAddRemove";
+// import CityAddRemove from "./components/CityAddRemove";
 // import Counter from "./components/Counter";
+import CounterWithVuex from "./components/CounterWithVuex";
 
 export default {
     name: "App",
@@ -20,8 +22,9 @@ export default {
         HelloWorld,
         // ComputedTwoNum,
         // PostComments,
-        CityAddRemove,
+        //CityAddRemove,
         //Counter,
+        CounterWithVuex,
     },
 };
 </script>
