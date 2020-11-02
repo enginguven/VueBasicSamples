@@ -1,6 +1,6 @@
 <template>
 <h1>Post</h1>
-<div v-for="post in posts" :key="post.id">
+<div v-for="post in posts" :key="post.id" @click="activePostId = post.id">
     <article>
         <h2>{{ post.title }}</h2>
         <p>{{ post.body }}</p>
@@ -42,7 +42,7 @@ export default {
         });
 
         const getComments = async (postId) => {
-            activePostId.value = postId;
+            //activePostId.value = postId;
 
             console.log(postId);
             const response = await axios.get(

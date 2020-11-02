@@ -1,20 +1,22 @@
 <template>
 <img alt="Vue logo" src="./assets/logo.png" />
 <HelloWorld msg="Welcome to Your Vue.js App" />
-<!-- <PostComments /> -->
+<!-- <CounterWithVuex /> -->
 <!--<CityAddRemove />-->
 <!--<ComputedTwoNum />-->
 <!--<Counter />-->
-<CounterWithVuex />
+<!--<PostComments />-->
+<TodoWithRef />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
 // import ComputedTwoNum from "./components/ComputedTwoNum";
-// import PostComments from "./components/PostComments";
-// import CityAddRemove from "./components/CityAddRemove";
+//import PostComments from "./components/PostComments";
+//import CityAddRemove from "./components/CityAddRemove";
 // import Counter from "./components/Counter";
-import CounterWithVuex from "./components/CounterWithVuex";
+//import CounterWithVuex from "./components/CounterWithVuex";
+import TodoWithRef from "./components/TodoWithRef";
 
 export default {
     name: "App",
@@ -22,9 +24,10 @@ export default {
         HelloWorld,
         // ComputedTwoNum,
         // PostComments,
-        //CityAddRemove,
+        // CityAddRemove,
         //Counter,
-        CounterWithVuex,
+        // CounterWithVuex,
+        TodoWithRef,
     },
 };
 </script>
